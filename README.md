@@ -1,49 +1,27 @@
-# social-mirror-legal
+# Mirage — páginas legais
 
-Documentos legais públicos do app **Social Mirror by Ellae** (cross-posting Instagram + TikTok).
+Documentos legais públicos do app **Mirage** (cross-poster Android: um vídeo → várias redes, com um toque por rede, sem login e sem servidor).
 
-Servidos via GitHub Pages em:
+Servidos via GitHub Pages:
 
-- https://ellaemyapp.github.io/social-mirror-legal/
-- https://ellaemyapp.github.io/social-mirror-legal/privacy-policy.html
-- https://ellaemyapp.github.io/social-mirror-legal/terms.html
-- https://ellaemyapp.github.io/social-mirror-legal/data-deletion.html
+- https://paulothedeveloper.github.io/Mirage-legal/
+- https://paulothedeveloper.github.io/Mirage-legal/privacy-policy.html
+- https://paulothedeveloper.github.io/Mirage-legal/terms.html
+- https://paulothedeveloper.github.io/Mirage-legal/data-deletion.html
 
-## Propósito
-
-URLs públicas usadas pra validação de App Review do Meta (Instagram Graph API) e TikTok (Content Posting API). Ambas as plataformas exigem URLs HTTP-acessíveis com conteúdo legal antes de aprovar permissões avançadas.
+> A versão **canônica** da privacidade também vive no site do app: https://mirage-social-app.web.app/privacy.html
 
 ## Estrutura
 
-- `index.html` — página inicial com links
+- `index.html` — índice com links
 - `privacy-policy.html` — Política de Privacidade (PT-BR + EN)
 - `terms.html` — Termos de Uso (PT-BR + EN)
-- `data-deletion.html` — Instruções de Exclusão de Dados (PT-BR + EN, LGPD Art. 18 + GDPR Art. 17)
+- `data-deletion.html` — Exclusão de Dados (PT-BR + EN)
+
+## Sobre o Mirage
+
+O Mirage **não usa API oficial, OAuth ou login** das redes sociais. Ele abre o app oficial de cada rede pelo **compartilhamento nativo do Android**, já com a sua mídia. Não há servidor, não há coleta de dados — seu vídeo nunca sai do celular.
 
 ## Contato
 
-contato@ellae.app
-
-## Migração futura
-
-Quando o domínio `ellae.app` tiver hosting próprio com path `/legal/*`, os mesmos HTMLs podem ser servidos lá com URLs mais profissionais (ex: `https://ellae.app/legal/privacy-policy`) — basta atualizar Meta e TikTok com as novas URLs.
-
-
----
-
-<div align="center">
-
-<img src="docs/paulo.jpg" alt="Paulo Adriel" width="130" style="border-radius:16px" />
-
-### 👤 Sobre o desenvolvedor · About the developer
-
-**Paulo Adriel** — produtor de vídeo & desenvolvedor indie · Porto Velho/RO, Brasil 🇧🇷
-Construo apps com Tauri, React, Flutter e Kotlin, sempre partindo de um problema real.
-*Video producer & indie developer. I build the tools I use myself.*
-
-[![Email](https://img.shields.io/badge/-paulothedeveloper@protonmail.com-8B5CF6?style=flat&logo=protonmail&logoColor=white)](mailto:paulothedeveloper@protonmail.com)
-[![Instagram](https://img.shields.io/badge/-@paulo.videodev-E4405F?style=flat&logo=instagram&logoColor=white)](https://instagram.com/paulo.videodev)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/paulo-adriel/)
-[![GitHub](https://img.shields.io/badge/-Paulothedeveloper-181717?style=flat&logo=github&logoColor=white)](https://github.com/Paulothedeveloper)
-
-</div>
+contato@paulocodex.com
